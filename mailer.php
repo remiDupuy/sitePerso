@@ -24,7 +24,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "remi.dup73@gmail.com";
+        $recipient = "contact@remi-dupuy.fr";
 
         // Set the email subject.
         //$subject = "New contact from $name";
@@ -35,9 +35,9 @@
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
-        $email_headers = "From: Site perso <remi@remi-dupuy.esy.es>\n";
+        $email_headers = "From: Site perso <contact@remi-dupuy.fr>\n";
         $email_headers .= "MIME-Version: 1.0\n";
-        $email_headers .= 'To: Rémi Dupuy <remi.dup73@gmail.com>' . "\r\n";
+        $email_headers .= 'To: Rémi Dupuy <contact@remi-dupuy.fr>' . "\r\n";
         $email_headers .= "Content-Type: text/plain; charset=\"utf-8\"";
 
         // Send the email.
